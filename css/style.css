@@ -3,12 +3,14 @@
   margin: 0;
   padding: 0;
 }
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
+
 .container-form {
   padding: 20px;
   border-radius: 10px;
@@ -21,21 +23,25 @@
   flex-direction: column;
   box-shadow: 0 0 15px black;
 }
+
 h1 {
   font-size: 2rem;
   text-align: center;
 }
+
 p {
   font-size: 1.2rem;
   margin: 0.5rem 0;
   cursor: pointer;
 }
+
 .buttons {
   display: flex;
   justify-content: center;
   gap: 0.5rem;
   margin: 10px 0;
 }
+
 .buttons button {
   border: none;
   font-size: 3rem;
@@ -45,6 +51,7 @@ p {
   background-color: blueviolet;
   transition: all 0.3s ease-in-out;
 }
+
 .buttons button:hover {
   background-color: rgba(137, 43, 226, 0.6);
 }
@@ -55,6 +62,7 @@ p {
   align-items: center;
   gap: 10px;
 }
+
 #choice-result div {
   background-color: yellow;
   text-align: center;
@@ -65,6 +73,7 @@ p {
   font-size: 1.2rem;
   cursor: pointer;
 }
+
 #reset {
   background-color: red;
   font-size: 1rem;
@@ -77,11 +86,13 @@ p {
 #reset:hover {
   background-color: rgba(255, 0, 0, 0.7);
 }
+
 @media (max-width: 450px) {
   .container-form {
     width: 80%;
   }
 }
+
 @media (max-width: 300px) {
   .container-form {
     width: 100%;
@@ -89,9 +100,11 @@ p {
     border-radius: 0px;
     box-shadow: none;
   }
+
   .buttons button {
     font-size: 2.2rem;
   }
+
   #choice-result div {
     width: 100px;
     font-size: 1.1rem;
